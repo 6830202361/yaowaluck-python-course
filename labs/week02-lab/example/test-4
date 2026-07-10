@@ -1,0 +1,13 @@
+print("VAT Calculator:")
+print(" - Ask for product price")
+print(" - Calculate: Total = price * 1.07")
+print()
+
+# input
+price = float(input("Enter product price: "))
+
+# process
+total = price * 1.07
+
+# output
+print("Total price is:", total)
